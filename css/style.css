@@ -1,0 +1,80 @@
+h3:first-child{
+    color: pink;
+}
+
+#greycol{
+    color: grey;
+}
+
+.text-box div > p{
+    color: red;
+}
+
+p:nth-of-type(3){
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.school-lessons{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:nth-child(2){
+    color: orange;
+}
+
+li:nth-child(3n){
+    color: yellow;
+}
+
+li:nth-child(n+4){
+    color: greenyellow;
+}
+
+li:last-child{
+    color: aqua;
+}
+
+li:only-child{
+    color: purple;
+}
+
+li:hover{
+    background-color: fuchsia;
+    color: blue;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+li:not(.onlylesson){
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.school-lessons .link:focus{
+    color: green;
+}
+
+.school-lessons .link:active{
+    color: tomato;
+}
+
+.school-lessons .secondlink:visited{
+    font-style: normal;
+    font-size: 10px;
+    color: aquamarine;
+}
